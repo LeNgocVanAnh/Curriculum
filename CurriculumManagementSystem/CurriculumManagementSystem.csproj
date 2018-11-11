@@ -160,6 +160,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ChartController.cs" />
     <Compile Include="Controllers\ListCTDTController.cs" />
@@ -1270,6 +1272,10 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Chart\ChartGraphs.cshtml" />
     <Content Include="Views\ListCTDT\List.cshtml" />
+    <Content Include="Views\Error\Error404.cshtml" />
+    <Content Include="Views\Form\FormWizard.cshtml" />
+    <Content Include="Views\Form\FormValidation.cshtml" />
+    <Content Include="Views\Form\FormCommon.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
