@@ -13,5 +13,17 @@ namespace CurriculumManagementSystem.Controllers
         {
             return View();
         }
+        public ActionResult Error401()
+        {
+            return View();
+        }
+        public ActionResult Error403()
+        {
+            return View();
+        }
+        public ActionResult Error405()
+        {
+            return View();
+        }
     }
 }
